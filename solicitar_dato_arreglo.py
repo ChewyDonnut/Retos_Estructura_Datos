@@ -1,5 +1,6 @@
 import random
-arreglo=[]
+from array import array
+arreglo=array("f",[])
 largo=random.randint(10,30)
 print(largo)
 for i in range(0,largo):
